@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: skyblue;
 }
 
 code {
@@ -13,12 +12,7 @@ code {
     monospace;
 }
 
-button {
-  display: block;
-}
-
-img {
-  border: 5px dotted red;
-  width: 50%;
-  text-align: center;
+@font-face {
+  font-family: 'Nasalization W05 Regular';
+  src: url('./fonts/39026907-6aaf-45fc-96c3-555f6a7d9ce4.woff') format('woff');
 }
